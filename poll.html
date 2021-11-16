@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="poll.css">
+    <title>
+        Form 
+    </title>
+ 
+    
+</head>
+  
+<body>
+    <section class="header">
+
+        <nav>
+    
+            
+            <div class="nav-links">
+                <ul>
+    <li><a href="proektnaoweb.html">HOME</a></li>
+    <li><a href="aboutme.html">ABOUT</a></li>
+    <li><a href="GALLERY.html">GALLERY</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+    <li><a href="poll.html">POLL</a></li>
+    <li><a href="blog.html">BLOG</a></li>
+    
+    
+    
+                </ul>
+    
+            </div>
+        </nav>
+    </section>
+
+    
+    <h1 class="typing"></h1>
+    
+  <script src="poll.js">   </script>
+    
+    <form id="form">
+ 
+  
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+ 
+            
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+ 
+           
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email" />
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+ 
+           
+            <input type="text"
+                   id="age"
+                   placeholder="Enter your age" />
+        </div>
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you?
+            </label>
+             
+            
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">
+                    Professional
+                </option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+  
+        <div class="form-control">
+            <label>
+                Do you like my website?
+            </label>
+ 
+            
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Maybe
+            </label>
+        </div>
+  
+        <div class="form-control">
+            <label>Favourite food
+                <small>(Check all if you want)</small>
+            </label>
+            
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">pizza</label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">pasta</label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">burrito</label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">salad</label>
+            
+        </div>
+        <div class="form-control">
+            <label>Favourite color:
+                
+            </label>
+            
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">black</label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">pink</label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">red</label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">blue</label>
+            
+        </div>
+  
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+ 
+            
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+      
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+  
+</html>
