@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>OWEB</title>
+<link rel="stylesheet" href="gallery.css">
+
+</head>
+
+<body>
+
+<section class="header">
+
+    <nav>
+
+        <a href="proektnaoweb.html"></a>
+        <div class="nav-links">
+            <ul>
+<li><a href="proektnaoweb.html">HOME</a></li>
+<li><a href="aboutme.html">ABOUT</a></li>
+<li><a href="GALLERY.html">GALLERY</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+<li><a href="poll.html">POLL</a></li>
+<li><a href="blog.html">BLOG</a></li>
+
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="contentpictures">
+    <img class="pic" src="images/22.jpg"  style="width:300px; height:300px;">
+    <img src="images/1233.jpg" style="width:300px; height:300px;">
+    <img class="pic" src="images/4.jpg" style="width:300px; height:300px;">
+    <!--<p style="clear: both;"></p> -->
+
+    </div>
+
+    <div class="commlike">
+        
+         <div class="eden">
+            
+            <div class="like-btn">
+                <i onclick="T(); count()" id="btn">&#10084;
+                </i>    <input id="likecount" type="number" value="0">
+            </div>
+
+            <form>
+            <textarea name="comment" rows="2" cols="20" placeholder="Add a public comment..."></textarea>
+            <br>
+            <input type="submit" name="Submit" value="Post">
+            </form>
+         </div>
+
+            <div class="eden"> 
+                <div class="like-btn1">
+                    <i onclick="T1(); count1()" id="btn1">&#10084;
+                    </i>    <input id="likecount1" type="number" value="0">
+                </div>   
+               
+                <form>
+                <textarea name="comment" rows="2" cols="20" placeholder="Add a public comment..."></textarea>
+                <br>
+                <input type="submit" name="Submit" value="Post">
+                </form>
+                </div>
+
+                <div class="eden"> 
+                    <div class="like-btn2">
+                        <i onclick="T2(); count2()" id="btn2">&#10084;
+                        </i>    <input id="likecount2" type="number" value="0">
+                    </div>
+                    
+                    <form>
+                    <textarea name="comment" rows="2" cols="20" placeholder="Add a public comment..."></textarea>
+                    <br>
+                    <input type="submit" name="Submit" value="Post">
+                    </form>
+                    </div>
+
+    </div>
+    
+</section>
+<script>
+    var btn = document.getElementById('btn');
+    var btn1 = document.getElementById('btn1');
+    var btn2 = document.getElementById('btn2');
+    function T() {
+        if(btn.classList.contains ("far")) {
+        btn.classList.remove("far");
+        btn.classList.add("fas");
+                                            }
+                        }
+    
+                        var likecount = document.querySelector('#likecount');
+                        var likecount1 = document.querySelector('#likecount1');
+                        var likecount2 = document.querySelector('#likecount2');
+                        function count() {
+                            likecount.value = parseInt(likecount.value) + 1;
+                        }
+    
+                        function T1() {
+        if(btn1.classList.contains ("far")) {
+        btn1.classList.remove("far");
+        btn1.classList.add("fas");
+                                            }
+                        }
+    
+                        function count1() {
+                            likecount1.value = parseInt(likecount1.value) + 1;
+                        }
+    
+                        function T2() {
+        if(btn2.classList.contains ("far")) {
+        btn2.classList.remove("far");
+        btn2.classList.add("fas");
+                                            }
+                        }
+    
+                        function count2() {
+                            likecount2.value = parseInt(likecount2.value) + 1;
+                        }
+    
+                </script>
+
+</body>
+</html>
