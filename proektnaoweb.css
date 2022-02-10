@@ -9,7 +9,7 @@ padding: 0;
 }
 body
 {
-    background-image: url(images/4.png);
+    background-image: url(images/work.jpg);
     background-position:center;
     background-size: cover;
     position: relative;
@@ -67,9 +67,9 @@ width: 150px;
 {
     font-size: 120px;
     font-family: Arial, Helvetica, sans-serif;
-    color:white;
+    color:rgb(255, 255, 255);
     border: 10px solid;
-    background-color: bisque;
+    background-color: #d48e97;
 
 }
 .jas p
@@ -82,7 +82,7 @@ width: 150px;
 .contacticons a
 {
 
-border: 2px solid bisque;
+border: 2px solid #d48e97;
 border-radius: 20%;
 line-height: 40px;
 text-align: center;
@@ -94,7 +94,7 @@ margin-right: 10px;
 }
 .fa
 {
-    color: rgba(231, 207, 177, 0.774);
-    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    background-color: #d48e97;
     font-size: 20px;
 }
