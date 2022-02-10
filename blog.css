@@ -99,7 +99,7 @@ body {
    
     margin:0;
     padding:0;
-    background: rgb(179, 115, 145);
+    background: #d48e97;
     background-position:center;
     background-size: cover;
     position: relative;
@@ -125,7 +125,7 @@ body {
 }
 a
 {
-    background:rgb(179, 115, 145);
+    background: #d48e97;
     color:white;
     text-decoration: none;
     border:1px solid transparent;
@@ -133,4 +133,57 @@ a
     padding:11px 10px;
     border-radius: 10px;
     transition: .4s;
+    margin-left: 90px;
+}
+#blog-title {
+    background-color: transparent;
+    border:white 1px solid;
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+    width: 70%;
+    
+
+  }
+  #blog-content {
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+    width: 70%;
+    
+
+  }
+  #blog-author {
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+    width: 70%;
+    
+  }
+  
+  h2 {
+    text-align: center;
+    margin-left: 90px;
+   
+  }
+button {
+    
+    border-radius: 10px;
+    border: 1px solid purple;
+    cursor: pointer;
+    font-size: 12px;
+    height: 25px;
+    letter-spacing: 2px;
+    padding: 0 22px 0 22px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+label
+{
+    color: white;
+    font-weight: bold;
 }
