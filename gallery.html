@@ -5,6 +5,7 @@
 <title>OWEB</title>
 <link rel="stylesheet" href="gallery.css">
 
+
 </head>
 
 <body>
@@ -47,11 +48,20 @@
                 </i>    <input id="likecount" type="number" value="0">
             </div>
 
-            <form>
-            <textarea name="comment" rows="2" cols="20" placeholder="Add a public comment..."></textarea>
-            <br>
-            <input type="submit" name="Submit" value="Post">
-            </form>
+            <div id="comment1">
+                <div id="date">
+
+                </div>
+            </div>
+            <div class="comments">
+                <form id="comment11">
+                <textarea id="komentar1" rows="2" cols="20" placeholder="Your Name"></textarea>
+                <br>
+                <textarea class="c3" id="komentar12" rows="2" cols="20" placeholder="Add comment..."></textarea>
+<br>
+                <button class="submit">Submit</button>
+                </form>
+                </div>
          </div>
 
             <div class="eden"> 
@@ -60,11 +70,20 @@
                     </i>    <input id="likecount1" type="number" value="0">
                 </div>   
                
-                <form>
-                <textarea name="comment" rows="2" cols="20" placeholder="Add a public comment..."></textarea>
-                <br>
-                <input type="submit" name="Submit" value="Post">
-                </form>
+                <div id="comment2">
+                    <div id="date2">
+                        
+                    </div>
+                </div>
+                <div class="comments">
+                    <form id="comment22">
+                    <textarea id="komentar2" rows="2" cols="20" placeholder="Your Name"></textarea>
+                    <br>
+                    <textarea class="c3" id="komentar22" rows="2" cols="20" placeholder="Add comment..."></textarea>
+<br>
+                    <button class="submit">Submit</button>
+                    </form>
+                    </div>
                 </div>
 
                 <div class="eden"> 
@@ -72,13 +91,21 @@
                         <i onclick="T2(); count2()" id="btn2">&#10084;
                         </i>    <input id="likecount2" type="number" value="0">
                     </div>
-                    
-                    <form>
-                    <textarea name="comment" rows="2" cols="20" placeholder="Add a public comment..."></textarea>
+                    <div id="com3">
+                        <div id="date3">
+                            
+                        </div>
+                    </div>
+                    <div class="comments">
+                    <form id="comment3">
+                    <textarea id="komentar3" rows="2" cols="20" placeholder="Your Name"></textarea>
                     <br>
-                    <input type="submit" name="Submit" value="Post">
+                    <textarea class="c3" id="komentar32" rows="2" cols="20" placeholder="Add comment..."></textarea>
+<br>
+                    <button class="submit">Submit</button>
                     </form>
                     </div>
+                 </div>
 
     </div>
     
@@ -124,6 +151,6 @@
                         }
     
                 </script>
-
+<script src="./gallery.js"></script>
 </body>
 </html>
