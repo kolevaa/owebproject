@@ -4,7 +4,7 @@ padding: 0;
 }
 body
 {
-    background:rgb(179, 115, 145);
+    background: #d48e97;
     background-position:center;
     background-size: cover;
     position: relative;
@@ -115,7 +115,7 @@ padding-bottom: 0px;
 {
     font-size: xx-large;
     border-radius: 10px;
-    color:pink;
+    color: white;
     
 }
 .like-btn1 {
@@ -127,7 +127,7 @@ padding-bottom: 0px;
 .like-btn1 i
 {
     font-size: xx-large;
-    color:pink;
+    color: white;
     border-radius: 10px;
     
 }
@@ -140,7 +140,25 @@ padding-bottom: 0px;
 .like-btn2 i
 {
     font-size: xx-large;
-    color: pink;
+    color: white;
     border-radius: 10px;
     
+}
+.commentStyle {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    width:150px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    
+}
+.komentarr {
+    font-size: 15px;
+}
+.dataa {
+    font-size: 12px;
+    text-align: right;
 }
