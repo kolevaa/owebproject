@@ -1,100 +1,135 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta name="viewport" content="with=device-width, initial-scale=1.0">
-  <title>Blog</title>
-  <link rel="stylesheet" href="blog.css">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="blog.css">
 </head>
+
 <body>
-  <section class="header">
+    <section class="header">
 
-    <nav>
-
-        
-        <div class="nav-links">
-            <ul>
-<li><a href="proektnaoweb.html">HOME</a></li>
-<li><a href="aboutme.html">ABOUT</a></li>
-<li><a href="GALLERY.html">GALLERY</a></li>
-<li><a href="contact.html">CONTACT</a></li>
-<li><a href="poll.html">POLL</a></li>
-<li><a href="blog.html">BLOG</a></li>
+        <nav>
 
 
+            <div class="nav-links">
+                <ul>
+                    <li><a href="proektnaoweb.html">HOME</a></li>
+                    <li><a href="aboutme.html">ABOUT</a></li>
+                    <li><a href="GALLERY.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="poll.html">POLL</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
 
-            </ul>
 
+
+                </ul>
+
+            </div>
+        </nav>
+        <div class="container">
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="images/1333.jpg" alt="Travel Image">
+                </div>
+                <div class="card-body">
+                    <span class="tag tag-teal">Food</span>
+                    <h4>Рецепт за крем од варени костени – вкусот на есента</h4>
+                    <p>Зад називот crème de marrons се крие традиционален француски намаз од костени, кој едноставно
+                        мора да го пробате намачкан на палачинки, парче леб или вкусни кекси.</p>
+                    <br>
+                    <br>
+                    <a
+                        href="https://www.crnobelo.com/hrana/recepti/89269-recept-za-krem-od-vareni-kosteni-vkusot-na-esenta">Дознај
+                        повеќе</a>
+                    <br>
+                    <br>
+                    <div class="card-user">
+                        <img src="https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?" alt="">
+                        <div class="user-info">
+                            <h5>John Doe</h5>
+                            <small>2 minutes ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="images/555.jpg" alt="Travel Image">
+                </div>
+                <div class="card-body">
+                    <span class="tag tag-travel">Travel</span>
+                    <h4>Виолетов песок и сончева порта во карпа: Плажа за восхитување од безбедна далечина</h4>
+                    <p>Фајфер е тешко достапна плажа лоцирана во Биг Сур, помеѓу Сан Франциско и Лос Анџелес. Оваа
+                        песочна убавина се наоѓа под рид и е опкружена со прекрасни камени формации.</p>
+                    <a
+                        href="https://www.kafepauza.mk/zanimlivosti/violetov-pesok-i-soncheva-porta-vo-karpa-plazha-za-voshituvanje-od-bezbedna-dalechina/">Дознај
+                        повеќе</a>
+                    <br>
+                    <br>
+                    <div class="card-user">
+                        <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+                            alt="User of Post">
+                        <div class="user-info">
+                            <h5>Bobur Rajapov</h5>
+                            <small>22 September, 2020</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="images/0000.jpg" alt="Travel Image">
+                </div>
+                <div class="card-body">
+                    <span class="tag tag-travel">Travel</span>
+                    <h4>Езеро над океанот! Дали е ова најголемата оптичка илузија на природата?</h4>
+                    <p>Сорвагсватан е името на најголемото езеро на Фарските Острови. Има површина од 3,4 квадратни
+                        километри и се протега на вулканскиот остров Вагар, што се наоѓа помеѓу Шкотска, Норвешка и
+                        Исланд.</p>
+                    <a
+                        href="https://www.kafepauza.mk/zanimlivosti/ezero-nad-okeanot-dali-e-ova-najgolemata-optichka-iluzija-na-prirodata/">Дознај
+                        повеќе</a>
+                    <br>
+                    <br>
+                    <div class="card-user">
+
+                        <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="User of Post">
+
+                        <div class="user-info">
+                            <h5>Temur Avazov</h5>
+                            <small>25 September, 2020</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
-<div class="container">
+    </section>
+    <div class="new-blog" data-visible="true">
+        <form>
+            <div>
+                <label for="blog-author">Name</label><br>
+                <input type="text" name="blog-author" id="blog-author">
+            </div>
+            <div>
+                <label for="blog-title">Title</label><br>
+                <input type="text" name="blog-title" id="blog-title">
+            </div>
+            <div>
+                <label for="blog">Write a text....</label><br>
+                <textarea name="blog-content" id="blog-content" cols="30" rows="10"> </textarea>
+            </div>
+            <button type="submit">CREATE</button>
 
-  <div class="card">
-      <div class="card-header">
-          <img src="images/1333.jpg" alt="Travel Image">
-      </div>
-      <div class="card-body">
-          <span class="tag tag-teal">Food</span>
-          <h4>Рецепт за крем од варени костени – вкусот на есента</h4>
-          <p>Зад називот crème de marrons се крие традиционален француски намаз од костени, кој едноставно мора да го пробате намачкан на палачинки, парче леб или вкусни кекси.</p>
-          <br>
-          <br>
-          <a href = "https://www.crnobelo.com/hrana/recepti/89269-recept-za-krem-od-vareni-kosteni-vkusot-na-esenta">Дознај повеќе</a> 
-          <br>
-          <br>
-          <div class="card-user">
-              <img src="https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?" alt="">
-              <div class="user-info">
-                  <h5 >John Doe</h5>
-                  <small >2 minutes ago</small>
-              </div>
-          </div>
-      </div>
-  </div>
+        </form>
 
-  <div class="card">
-      <div class="card-header">
-          <img src="images/555.jpg" alt="Travel Image">
-      </div>
-      <div class="card-body">
-          <span class="tag tag-travel">Travel</span>
-          <h4>Виолетов песок и сончева порта во карпа: Плажа за восхитување од безбедна далечина</h4>
-          <p>Фајфер е тешко достапна плажа лоцирана во Биг Сур, помеѓу Сан Франциско и Лос Анџелес. Оваа песочна убавина се наоѓа под рид и е опкружена со прекрасни камени формации.</p>
-          <a href = "https://www.kafepauza.mk/zanimlivosti/violetov-pesok-i-soncheva-porta-vo-karpa-plazha-za-voshituvanje-od-bezbedna-dalechina/">Дознај повеќе</a> 
-          <br>
-          <br>
-          <div class="card-user">
-              <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="User of Post">
-              <div class="user-info">
-                  <h5 >Bobur Rajapov</h5>
-                  <small >22 September, 2020</small>
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <div class="card">
-      <div class="card-header">
-          <img src="images/0000.jpg" alt="Travel Image">
-      </div>
-      <div class="card-body">
-          <span class="tag tag-travel">Travel</span>
-          <h4>Езеро над океанот! Дали е ова најголемата оптичка илузија на природата?</h4>
-          <p>Сорвагсватан е името на најголемото езеро на Фарските Острови. Има површина од 3,4 квадратни километри и се протега на вулканскиот остров Вагар, што се наоѓа помеѓу Шкотска, Норвешка и Исланд.</p>
-          <a href = "https://www.kafepauza.mk/zanimlivosti/ezero-nad-okeanot-dali-e-ova-najgolemata-optichka-iluzija-na-prirodata/">Дознај повеќе</a> 
-           <br>
-          <br>
-          <div class="card-user">
-              
-              <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="User of Post">
-              
-              <div class="user-info">
-                  <h5 >Temur Avazov</h5>
-                  <small >25 September, 2020</small>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-</section>
+    </div>
+    <script src="blog.js"></script>
 </body>
+
 </html>
